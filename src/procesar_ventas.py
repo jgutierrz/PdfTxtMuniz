@@ -13,6 +13,8 @@ DOC_TYPES = {
     "NOTA DE DÉBITO": "NOTA DE DEBITO"
 }
 
+#prueba para probar el commit.
+
 RE_SERIE_NRO = re.compile(r"Nro\.?\s+([A-Z0-9]+)-(\d+)")
 RE_FECHA_EMISION = re.compile(r"Fecha\s*:\s*(\d{2}-[A-Z]{3}-\d{4})")
 RE_FECHA_VENC = re.compile(r"Fecha de Vencimiento\s*:\s*(\d{2}-[A-Z]{3}-\d{4})")
